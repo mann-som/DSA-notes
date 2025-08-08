@@ -158,6 +158,10 @@ bool isCBT(Node* root){
     return true;
 }
 
+void BSTtoMaxHeap(Node* root){
+     
+}
+
 Info checkMaxHeap(Node* root){
     if(!root){
         return Info(INT_MIN, true);
